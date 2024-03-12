@@ -29,7 +29,7 @@ resource "aws_security_group" "allow_http" {
 }
 
 resource "aws_security_group" "allow_ssh" {
-  name        = "allow_tls"
+  name        = "allow_ssh"
   description = "Allow TLS inbound traffic"
   vpc_id=var.VPC_ID
   
